@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration form</title>
+    <style>
+        form{
+            border:2px solid darkgray;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+
+        }
+        input,select{
+            width:100%;
+            padding:8px;
+            margin:2px 0px;
+            border:1px solid#ccc;
+
+        }
+        input[type="submit"]{
+            background-color: green;
+            color:white;
+            border:none;
+            cursor:pointer;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h2><center>Registration form</center></h2>
+    <form action="#" method="post">
+        full name:
+        <input type="text" id="name" name="name" required><br><br>
+        email address :
+        <input type="email" id="email" name="email" required><br><br>
+        password:
+        <input type="password" id="password" name="password" required><br><br>
+        phone number:
+        <input type="tel" id="phone" name="phone" required><br><br>
+        gender:
+        <select id="gender" name="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+
+
+   
+        </select><br><br>
+        <input type="submit" value="register">
+
+    </form>
+    
+</body>
+</html>
